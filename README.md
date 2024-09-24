@@ -37,11 +37,11 @@ To get started with this project, follow the steps below:
    ```bash
    npm install
    
-4. Create a .env file in the root directory and add the following environment variables:
+4. Create a `.env` file in the root directory and add the following environment variables:
+   - `DATABASE_URI` for MongoDB connection.
+   - `JWT_SECRET` for user authentication and token management.
+   - `RAZORPAY_KEY_ID` and `RAZORPAY_KEY_SECRET` for Razorpay payment gateway integration.
 
- -- DATABASE_URI for MongoDB
- -- JWT_SECRET for authentication
- -- RAZORPAY_KEY_ID and RAZORPAY_KEY_SECRET for payment gateway integration
 
 5. Start the development server:
    ```bash
